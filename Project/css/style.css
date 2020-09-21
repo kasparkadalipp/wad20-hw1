@@ -1,11 +1,13 @@
-html {
+html, body {
     background-color: #1777bd;
+    margin: 0;
 }
 
-body {
+main {
+    padding: 10px 0;
+    margin: 40px auto 0 auto;
+    width: 60%;
     background-color: #fff;
-    text-align: center;
-    align-content: center;
 }
 
 a {
@@ -25,9 +27,44 @@ img {
     width: 80%;
 }
 
-.profile_icon {
-    width: 40px;
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    text-align: center;
+}
+
+header button {
+    margin: 0;
+    padding: 5px 25px;
+    border-radius: 0 4px 4px 0;
+}
+
+header input {
+    width: 30%;
+    border: 1px solid #e6e6e6;
+    margin: 5px -5px 0 0;
+    padding: 4px 10px;
+}
+
+header img {
     float: left;
+    width: 40px;
+}
+
+header img + img {
+    float: right;
+}
+
+
+main .profile_icon {
+    float: left;
+}
+
+.profile_icon {
+    width: 30px;
 }
 
 .date {
@@ -47,28 +84,12 @@ img {
     float: left;
 }
 
-.header button {
-    margin: 0;
-    padding: 5px 25px;
-    border-radius: 0 4px 4px 0;
-}
-
-.header input {
-    width: 30%;
-    border: 1px solid #e6e6e6;
-    margin: 5px -5px 0 0;
-    padding: 4px 10px;
-}
-
-.header img {
-    float: left;
-    width: 40px;
-}
-
-.header img + img {
-    float: right;
-}
 
 #login_icon {
     width: 100px;
+}
+
+.thumbs_up {
+    width: 10px;
+    height: 10px;
 }
