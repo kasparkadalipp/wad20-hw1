@@ -23,8 +23,7 @@ button {
 }
 
 img {
-    margin: 3px;
-    width: 80%;
+    width: 100%;
 }
 
 header {
@@ -37,7 +36,6 @@ header {
 }
 
 header button {
-    margin: 0;
     padding: 5px 25px;
     border-radius: 0 4px 4px 0;
 }
@@ -45,26 +43,33 @@ header button {
 header input {
     width: 30%;
     border: 1px solid #e6e6e6;
-    margin: 5px -5px 0 0;
+    margin: 7px -5px 0 0;
     padding: 4px 10px;
 }
 
 header img {
+    width: 35px;
+    margin: 5px 0 5px 15px;
     float: left;
-    width: 40px;
 }
 
 header img + img {
+    margin: 8px 7px 0 0;
     float: right;
 }
 
 
-main .profile_icon {
-    float: left;
+.thumbs_up {
+    width: 10px;
+    height: 10px;
 }
 
 .profile_icon {
-    width: 30px;
+    width: 27px;
+}
+
+main .profile_icon {
+    float: left;
 }
 
 .date {
@@ -89,16 +94,11 @@ main .profile_icon {
     width: 100px;
 }
 
-.thumbs_up {
-    width: 10px;
-    height: 10px;
-}
-
-#login{
+#login {
     position: absolute;
-    padding: 20px;
-    width: 30%;
-    height: 55%;
+    text-align: center;
+    width: 32%;
+    height: 58%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
