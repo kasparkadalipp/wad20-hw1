@@ -93,3 +93,15 @@ main .profile_icon {
     width: 10px;
     height: 10px;
 }
+
+#login{
+    position: absolute;
+    padding: 20px;
+    width: 30%;
+    height: 55%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
