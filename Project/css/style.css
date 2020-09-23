@@ -1,5 +1,5 @@
 html, body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Georgia', sans-serif;
     background-color: #1777bd;
     margin: 0;
 }
@@ -21,6 +21,7 @@ button {
     border-radius: 2px;
     padding: 2px;
     border: 0;
+    font-size: 75%
 }
 
 img {
@@ -61,7 +62,7 @@ header img + img {
 
 
 .thumbs_up {
-    width: 10px;
+    width: 12px;
     height: 10px;
 }
 
@@ -76,18 +77,25 @@ main .profile_icon {
 .date {
     color: #8d8d87;
     float: right;
+    font-size: 80%
 }
 
 .flex-container div {
     margin: 20px auto;
-    padding: 10px;
+    padding: 20px;
     width: 60%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
 
+
 .flex-container p ~ button {
     float: left;
+}
+
+.flex-container .post_img {
+    margin-left: -20px;
+    width: 112%;
 }
 
 
