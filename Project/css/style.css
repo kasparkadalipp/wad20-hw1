@@ -64,6 +64,10 @@ header img + img {
 .thumbs_up {
     width: 12px;
     height: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+    padding-top: 1px;
 }
 
 .profile_icon {
@@ -77,7 +81,7 @@ main .profile_icon {
 .date {
     color: #8d8d87;
     float: right;
-    font-size: 80%
+    font-size: 80%;
 }
 
 .flex-container div {
@@ -93,9 +97,13 @@ main .profile_icon {
     float: left;
 }
 
+/*
+Tried to remove the padding from the images with
+margin-left: -20px
+*/
+
 .flex-container .post_img {
-    margin-left: -20px;
-    width: 112%;
+    width: 100%;
 }
 
 
