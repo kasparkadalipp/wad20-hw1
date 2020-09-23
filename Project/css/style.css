@@ -134,6 +134,7 @@ Is quite a mess, but it does the job for this homework task I guess. Indrek.
 }
 
 input {
+	font-family: 'Source Sans Pro', sans-serif;
 	border-radius: 3px;
 	border-width: 1px;
 	border-style: outset;
