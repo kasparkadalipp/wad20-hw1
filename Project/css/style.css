@@ -1,4 +1,5 @@
 html, body {
+	font-family: 'Source Sans Pro', sans-serif;
     background-color: #1777bd;
     margin: 0;
 }
@@ -96,7 +97,7 @@ main .profile_icon {
 }
 
 #login {
-	font-family: 'Source Sans Pro', sans-serif;
+
     position: absolute;
     text-align: center;
     width: 32%;
@@ -122,6 +123,7 @@ Is quite a mess, but it does the job for this homework task I guess. Indrek.
 	padding: 5px;
 	margin: 15px;
 }
+
 #login_text p + a{
 	font-size: 80%;
 }
@@ -131,9 +133,7 @@ Is quite a mess, but it does the job for this homework task I guess. Indrek.
 	font-weight: normal;
 }
 
-
 input {
-	font-family: 'Source Sans Pro', sans-serif;
 	border-radius: 3px;
 	border-width: 1px;
 	border-style: outset;
@@ -141,7 +141,6 @@ input {
 	width: 60%;
 	margin: 5px;
 	padding: 15px;
-
 }
 
 input[type=submit] {
@@ -153,11 +152,9 @@ input[type=submit] {
 	color: white;
 	font-weight: bold;
 	font-size: large;
-
 }
 
 input[type=text]{
 	text-align: left;
 	text-indent: 5px;
-
 }
