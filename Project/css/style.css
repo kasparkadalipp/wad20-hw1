@@ -79,6 +79,7 @@ main .profile_icon {
 }
 
 .date {
+    margin-top: -10px;
     color: #8d8d87;
     float: right;
     font-size: 80%;
