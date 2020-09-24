@@ -1,5 +1,8 @@
+* {
+    font-family: 'Georgia', sans-serif;
+}
+
 html, body {
-	font-family: 'Georgia', sans-serif;
     background-color: #1777bd;
     margin: 0;
 }
@@ -21,12 +24,12 @@ button {
     border-radius: 2px;
     padding: 2px;
     border: 0;
-    font-size: 75%
 }
 
 img {
     width: 100%;
 }
+
 
 header {
     position: fixed;
@@ -44,9 +47,10 @@ header button {
 
 header input {
     width: 30%;
-    border: 1px solid #e6e6e6;
     margin: 7px -5px 0 0;
     padding: 4px 10px;
+    border: 1px #8c8c8c solid;
+    border-radius: 3px;
 }
 
 header img {
@@ -93,86 +97,62 @@ main .profile_icon {
     border-radius: 5px;
 }
 
-
 .flex-container p ~ button {
     float: left;
 }
 
-/*
-Tried to remove the padding from the images with
-margin-left: -20px
-*/
-
-.flex-container .post_img {
-    width: 100%;
-}
-
-
-#login_icon {
-	display: flex;
-    width: 130px;
-}
 
 #login {
-
     position: absolute;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    min-width: 450px;
     width: 32%;
+    min-height: 600px;
     height: 58%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
+    font-size: 1.5em;
 }
 
-/*
-Is quite a mess, but it does the job for this homework task I guess. Indrek.
-*/
-
-#login_text {
-	margin-top: -70px;
-	font-weight: bold;
-	font-size: 150%;
-	margin-bottom: 25px;
+#login_icon {
+    position: absolute;
+    display: flex;
+    width: 130px;
 }
 
-#login_text p{
-	padding: 5px;
-	margin: 15px;
+#login > img + p {
+    padding-top: 70px;
 }
 
-#login_text p + a{
-	font-size: 80%;
+#login p {
+    padding: 10px;
+    margin: 15px;
 }
 
-#login_text a + p{
-	font-size: 80%;
-	font-weight: normal;
+#login input {
+    display: block;
+    width: 45%;
+    margin: 15px auto;
+    padding: 12px;
+    font-size: .8em;
 }
 
-input {
-	font-family: 'Source Sans Pro', sans-serif;
-	border-radius: 3px;
-	border-width: 1px;
-	border-style: outset;
-	text-align: center;
-	width: 60%;
-	margin: 5px;
-	padding: 15px;
+#login input[type=text] {
+    text-indent: 10px;
+    border: 2px solid #8c8c8c;
+    border-radius: 3px;
 }
 
-input[type=submit] {
-	padding: 5px;
-	width: 50%;
-	margin: 15px;
-	margin-bottom: 5px;
-	background-color: #0d569b;
-	color: white;
-	font-weight: bold;
-	font-size: large;
-}
-
-input[type=text]{
-	text-align: left;
-	text-indent: 5px;
+#login input[type=submit] {
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    width: 15%;
+    color: white;
+    background-color: #0d569b;
+    border-radius: 7px;
 }
