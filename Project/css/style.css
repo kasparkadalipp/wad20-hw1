@@ -141,7 +141,7 @@ main .profile_icon {
     font-size: .8em;
 }
 
-#login input[type=text], input[type=password] {
+#login input[type=email], input[type=password] {
     text-indent: 10px;
     border: 2px solid #8c8c8c;
     border-radius: 3px;
