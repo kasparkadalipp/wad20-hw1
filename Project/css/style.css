@@ -59,7 +59,7 @@ header img {
     float: left;
 }
 
-header img + img {
+header img:nth-child(2){
     margin: 8px 7px 0 0;
     float: right;
 }
