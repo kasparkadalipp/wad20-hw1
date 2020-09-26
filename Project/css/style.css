@@ -76,8 +76,12 @@ header img:nth-child(2){
 }
 
 .thumbs_up {
-    width: 12px;
-    height: 10px;
+    width: 16px;
+    height: 14px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 3px;
+    padding-bottom: 2px;
 }
 
 .profile_icon {
@@ -107,7 +111,8 @@ main .profile_icon {
 }
 
 .flex-container p ~ button {
-    padding: 10px;
+    margin-left: 7px;
+    margin-bottom: 13px;
 }
 
 
