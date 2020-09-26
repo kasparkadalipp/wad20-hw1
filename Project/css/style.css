@@ -76,12 +76,12 @@ header img:nth-child(2){
 }
 
 .thumbs_up {
-    width: 16px;
-    height: 14px;
-    padding-left: 4px;
-    padding-right: 4px;
-    padding-top: 3px;
-    padding-bottom: 2px;
+    width: 11px;
+    height: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+    padding-bottom: 1px;
 }
 
 .profile_icon {
