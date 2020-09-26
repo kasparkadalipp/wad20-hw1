@@ -64,17 +64,24 @@ header img:nth-child(2){
     float: right;
 }
 
+.text {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.text_without_picture {
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
 .thumbs_up {
     width: 12px;
     height: 10px;
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-bottom: 1px;
-    padding-top: 1px;
 }
 
 .profile_icon {
+    padding: 10px;
     width: 27px;
 }
 
@@ -83,7 +90,9 @@ main .profile_icon {
 }
 
 .date {
-    margin-top: -10px;
+    padding-top: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
     color: #8d8d87;
     float: right;
     font-size: 80%;
@@ -91,14 +100,14 @@ main .profile_icon {
 
 .flex-container div {
     margin: 20px auto;
-    padding: 20px;
+    /*padding: 20px;*/
     width: 60%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
 
 .flex-container p ~ button {
-    float: left;
+    padding: 10px;
 }
 
 
